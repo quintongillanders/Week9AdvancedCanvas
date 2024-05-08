@@ -5,7 +5,7 @@ Example3();
 function Example1() {
     // Character Sprite sheet image from https://opengameart.org/content/base-character-spritesheet-16x16
     const characterSpriteSheet = new Image();
-    characterSpriteSheet.src = "./assets/blank_character.png"
+    characterSpriteSheet.src = "./assets/blank_character.png";
     characterSpriteSheet.onload = load;
 
     // set this to the number of elements you want to load before initalising
